@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color:darkkhaki
+}
+
+button {
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    border-style: none;
+    border-radius: 8%;
+    margin: 20px;
+    width: 100px;
+}
+
+#gameUI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#score {
+    margin: 50px;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
